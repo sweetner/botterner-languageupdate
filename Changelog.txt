@@ -1,0 +1,31 @@
+**V2.4**
++Fixed an error when trying to use `profile` in direct messages.
++Removed league of legends command due to lots of bugs.
+
+**V2.3**
++Fixed some minor bugs.
++Added wolfram alpha command with reaction navigation.
++Spiced up the error meessage and added some quality of life changes.
+
+**V2.2**
++Fixed a bug in the "profile" command, in which the command wouldn't work.
++Added a unique interaction when trying to ban the bot owner(s).
++Added a new api support for "League of legends" as well as a new command group "League of legends".
++Added the command "leagueprofile" under "League of legends".
++Added the command "leaguefreeweek" under "League of legends".
++Added the command "leaguelivegame" under "League of legends".
++Added a reply when the bot cant ban/kick/etc.. because of low privilege or any other error.
+
+
+
+**V2.1**
++Added changelog and changelog command
++Added invite link command
++Changed the bot status to "s!help ; <amount of server> servers"
++Fixed the bug in the "Chat" command group where it asks for a user non-stop. (Was too spammy/ not working as intended)
++Added a special interaction when a user s!love him/herself
++Changed the avatar command to look better
++Only "Admin" group command will ask for a valid input of user/text
++Added command group "Owner"
++Added the command "botname" under the group "Owner"
++Fixed the bug where the bot crashed when requested it's own profile
