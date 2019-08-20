@@ -1,3 +1,10 @@
+**V2.5**
++Updated all the dependencies
++Fixed some minor bugs here and there
++Added command s!translate
++Added command s!numberfact
++Added a new rotating status updates! (will probably help make people add the bot to their server)
+
 **V2.4**
 +Fixed an error when trying to use `profile` in direct messages.
 +Removed league of legends command due to lots of bugs.

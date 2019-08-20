@@ -25,11 +25,8 @@ client.registry
     .registerCommandsIn(path.join(__dirname, 'commands'));
 
 require('./events/wolframalpha.js');
+require('./events/onready.js');
 
-client.on('ready', () => {
-    console.log('Logged in!');
-    client.user.setGame(`${client.commandPrefix}help ; ${client.guilds.size} servers`);
-});
 
 
 

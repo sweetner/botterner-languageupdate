@@ -17,6 +17,7 @@
     "leaguejs": "^1.14.5",
     "lib": "^4.0.4",
     "request": "^2.88.0",
-    "websocket": "^1.0.29"
+    "websocket": "^1.0.29",
+    "xmlhttprequest": "^1.8.0"
   }
 }
