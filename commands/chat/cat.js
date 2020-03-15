@@ -31,7 +31,7 @@ class CatCommand extends commando.Command
                       return message.reply(`Oops... Couldn't understand you.`);
                   var image = response[0].url;
                   var embed = new Discord.RichEmbed()
-                      .setAuthor(`Cat time ~ :heart:`)
+                      .setAuthor(`Cat time ~ ❤️`)
                       .setImage(image)
                       .setColor(0x00FFFF)
                   botMsg.edit(embed); 
