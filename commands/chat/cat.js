@@ -13,7 +13,7 @@ class CatCommand extends commando.Command
                     group: 'chat',
                     memberName: 'cat',
                     description: 'Use this command to get a picture of a cat! **(You can also use s!catto)**',
-                    examples: [`s!cat]
+                    examples: [`s!cat`]
                 });
         }
 
