@@ -21,23 +21,22 @@ class CatCommand extends commando.Command
 
         async run(message, {text})
         {
-            const botMsg = await message.reply('Generating... If takes too long please try again.');
-          let user = message.author;
-          var url = `https://api.thecatapi.com/v1/images/search`;
+              const botMsg = await message.reply('Generating... If takes too long please try again.');
+              var url = 'https://api.thecatapi.com/v1/images/search';
 
 
 
-          getJSON(url, async function(error, response){
-              if(!response)
-                  return message.reply(`Oops... Couldn't understand you.`);
-              var image = response[0].url;
-              var embed = new Discord.RichEmbed()
-                  .setAuthor(`Cat time ~ :heart:`)
-                  .setImage(image)
-                  .setColor(0x00FFFF)
-              botMsg.edit(embed); 
-          });
-          return;
+              getJSON(url, async function(error, response){
+                  if(!response)
+                      return message.reply(`Oops... Couldn't understand you.`);
+                  var image = response[0].url;
+                  var embed = new Discord.RichEmbed()
+                      .setAuthor(`Cat time ~ :heart:`)
+                      .setImage(image)
+                      .setColor(0x00FFFF)
+                  botMsg.edit(embed); 
+              });
+              return;
         }
     }   
 
